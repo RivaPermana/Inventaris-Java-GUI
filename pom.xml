@@ -22,4 +22,11 @@
       <systemPath>${project.basedir}/lib/AbsoluteLayout.jar</systemPath>
     </dependency>
   </dependencies>
+         <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub RivaPermana Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/RivaPermana/Inventaris-Java-GUI</url>
+   </repository>
+</distributionManagement>
 </project>
